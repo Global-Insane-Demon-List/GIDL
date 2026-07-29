@@ -6,5 +6,12 @@
   "verifier": "Andromeda GMD",
   "verification": "https://www.youtube.com/watch?v=Amyhrr_faUg",
   "percenttoqualify": 70,
-  "records": []
+  "records": [
+    {
+            "user": "wRocket",
+            "link": "https://youtu.be/SAG2CLYLgbc",
+            "percent": 100,
+            "hz": 240
+      }
+  ]
 }
