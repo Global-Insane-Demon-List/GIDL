@@ -11,10 +11,10 @@ const scale = 3;
  * @returns {Number}
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 200) {
+    if (rank > 99999) {
         return 0;
     }
-    if (rank > 200 && percent < 100) {
+    if (rank > 100 && percent < 100) {
         return 0;
     }
 
@@ -26,7 +26,7 @@ export function score(rank, percent, minPercent) {
     // New formula
     let listLength = 150 // IMPORTANT: Set this to how many levels are on the GIDL...
     
-    let score = (500 - Math.sqrt(rank - 1) * (500 / Math.sqrt(listLength))) *
+    let score = (500 - (Math.sqrt(rank - 1) * (500 / Math.sqrt(listLength)))) *
         (((percent / 100) * minPercent) / minPercent);
 
     score = Math.max(0, score);
