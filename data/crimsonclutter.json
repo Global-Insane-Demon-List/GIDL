@@ -6,5 +6,12 @@
   "verifier": "Rikkumoist",
   "verification": "https://youtu.be/3-bYZqsyZAI",
   "percentToQualify": 70,
-  "records": []
+  "records": [
+    {
+            "user": "wRocket",
+            "link": "https://www.youtube.com/watch?v=_x-XLNdFkTU",
+            "percent": 100,
+            "hz": 240
+      }
+  ]
 }
