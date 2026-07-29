@@ -6,5 +6,24 @@
   "verifier": "Dorami",
   "verification": "https://youtu.be/0xmL1r92aEE",
   "percenttoqualify": 70,
-  "records": []
+  "records": [
+    {
+            "user": "wRocket",
+            "link": "https://youtu.be/SAG2CLYLgbc",
+            "percent": 100,
+            "hz": 240
+    },
+    {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/ohy6O5AP5NM",
+            "percent": 100,
+            "hz": 480
+      },
+      {
+            "user": "EarthMoth",
+            "link": "https://www.youtube.com/watch?v=haea9neYcA0",
+            "percent": 100,
+            "hz": 999
+      }
+  ]
 }
