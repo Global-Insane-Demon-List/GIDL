@@ -24,7 +24,7 @@ export function score(rank, percent, minPercent) {
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
     // New formula
-    let listLength = 150 // IMPORTANT: Set this to how many levels are on the GIDL...
+    let listLength = 295 // IMPORTANT: Set this to how many levels are on the GIDL...
     
     let score = (500 - (Math.sqrt(rank - 1) * (500 / Math.sqrt(listLength)))) *
         (((percent / 100) * minPercent) / minPercent);
