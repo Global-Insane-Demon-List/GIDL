@@ -6,5 +6,12 @@
   "verifier": "Zobros",
   "verification": "https://www.youtube.com/watch?v=4v39XU7LW7M",
   "percenttoqualify": 70,
-  "records": []
+  "records": [
+    {
+            "user": "wRocket",
+            "link": "https://youtu.be/Q61YOn1WIqg",
+            "percent": 100,
+            "hz": 240
+      }
+  ]
 }
